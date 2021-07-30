@@ -49,6 +49,7 @@ for(let i = 1; i<=100; i++){
             align: "left",
             Color: "black",
             bgColor : "white",
+            isBold : "false",
         }
         cellDiv.addEventListener("input", function(e){
             let currCellAddress = e.currentTarget.getAttribute("data-address");
