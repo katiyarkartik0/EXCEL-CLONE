@@ -38,7 +38,7 @@ bold.addEventListener("click", function(e){
         lastCell.style.fontWeight = "900";
         let address = lastCell.getAttribute("data-address");
         dataObj[address].isBold = "true";
-    }
+    } 
 })
 italics.addEventListener("click", function(e){
     if(lastCell){
